@@ -9,9 +9,9 @@ namespace NumberToText
             StringArray iA = new StringArray();
             TextNum tN = new TextNum();
 
-            string[] intArr = iA.StringToArray(n);
+            string[] strArr = iA.StringToArray(n);
 
-            foreach(string i in intArr)
+            foreach(string i in strArr)
             {
                 Console.Write(tN.TextNumber(int.Parse(i)));
             }

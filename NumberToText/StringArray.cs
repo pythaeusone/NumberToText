@@ -11,7 +11,6 @@ namespace NumberToText
             {
                 stringList.Add(i[j].ToString());
             }
-            //intList.Reverse();
             return stringList.ToArray();
         }
     }
